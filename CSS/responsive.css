@@ -1,0 +1,162 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media  (max-width: 767px) {
+    .container{
+      width: 50%;
+    }
+    .nav-bar{
+      display: none;
+    }
+    .first, .second, .third{
+      width: 100%;
+      display: block;
+    }
+    .top-header{
+      padding: 34px 0px;
+      line-height: 2.8;
+    }
+    .banner-content h1{
+      font-size: 44px;
+    }
+    .banner-content p{
+      font-size: 10px;
+    }
+
+    .banner-content button{
+      padding: 8px 16px;
+      margin: 18px 0px;
+      font-size: 14px;
+    }
+
+    .icon-tog{
+      text-align: center;
+      display: grid;
+      grid-template-columns: auto;
+    }
+    
+
+    .fc-gallery{
+      display: flex;
+      flex-direction: column;
+
+
+    }
+    .product-gallery{
+      display: flex;
+      flex-direction: column;
+    }
+    .product-gallery-2
+    {
+      display: flex;
+      flex-direction: column;
+    }
+    .banner-2-tog{
+      display: flex;
+      flex-direction: column;
+    }
+    .upper-part-2 h2 a{
+      color: black;
+    }
+    .banner-2-price span{
+      color: black;
+    }
+    .banner-2-price span a{
+      color: black;
+    }
+    .social-media-tog{
+      display: flex;
+      flex-direction: column;
+    }
+    .subscribe-tog{
+      display: flex;
+      flex-direction: column;
+    }
+    .sub-left{
+      padding-bottom: 25px;
+    }
+    .sub-right form input{
+      width: 255px;
+      margin-right:25px;
+    
+    }
+    .sub-right form{
+      display: grid;
+      grid-template-columns: auto auto;
+
+    }
+    .sum-tog{
+      display: flex;
+      flex-direction: column;
+    }
+    .sum-item h1{
+      font-size: 20px;
+     
+
+    border-bottom: 1px solid #82ae46;
+    }
+    .sum-item{
+      margin-bottom: 35px;
+    }
+
+
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  /*@media (min-width: 320px) and (max-width: 480px) {}
+    
+    /* CSS */
+
+  
