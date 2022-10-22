@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>Subject Choice</title>
+    <link rel="stylesheet" href="css/SubChoice.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="inner-box" id="card">
+                <div class="card-front">
+                <h3 style="color:lightcyan">Subject Choice Form <br></h3>
+                <form>
+                    <input type="text" class="input-box" placeholder="Enter Your Name" required>
+                    <input type="email" class="input-box" placeholder="Enter Email Address" required>
+                    <input type="number" class="input-box" placeholder="Student ID" required>
+                    <button type="submit" class="submit-btn">Submit</button>
+                   
+                </form>
+                <button type="button" class="btn" onclick="openRegister()">Proceed</button>
+            </div>
+                <div class="card-back" >
+                    <h3 style="color:lightcyan">Subject Choice Form<br></h3>
+                <form>
+                    <input type="text" class="input-box" placeholder="First Subject" required>
+                    <input type="text" class="input-box" placeholder="Second Subject" required>
+                    <input type="text" class="input-box" placeholder="Third Subject" required>
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+                <button type="button" class="btn" onclick="openLogin()"><a href="anikaform.html">Get Admitted</a></button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script>
+    var card =document.getElementById("card")
+    function openRegister(){
+        card.style.transform = "rotateY(-180deg)"
+    }
+    function openLogin(){
+        card.style.transform = "rotateY(0deg)"
+    }
+    
+    </script>
+</body>
+</html>

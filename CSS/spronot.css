@@ -1,0 +1,133 @@
+body {
+    background-color: #e0e3b5;
+  }
+  
+  #whbox .name {
+    font-family: "Sansation";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    /* identical to box height */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: #1aa50e;
+  }
+  
+  #whbox #header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #whbox #RH i {
+    position: relative;
+    top: 1px;
+    left: px;
+  }
+  
+  #whbox {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  #whbox #header .name {
+    left: 141px;
+    top: 53px;
+    font-family: "Sansation";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    display: flex;
+    /* align-items: center; */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #whbox #RH .textdec {
+    text-decoration: none;
+  }
+  
+  #whbox #RH .textdec {
+    cursor: pointer;
+  }
+  
+  #green-box {
+    box-sizing: border-box;
+  
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #006c32;
+    border: 1px solid #000000;
+    border-radius: 46px;
+    width: 1124px;
+    height: 550px;
+    left: 188px;
+    
+    padding-bottom: 20px;
+  }
+  
+  #green-box #LS #Gbx span {
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #f1ff53;
+  }
+  
+  #green-box #LS #Gbx p{
+  
+      font-family: "Georgia";
+      font-style: normal;
+      font-weight: 200;
+      font-size: 14px;
+      line-height: 20px;
+      color: #a7fac5;
+  
+  }
+  
+  #green-box #LS #Gbx2 h3{
+  font-family: 'Nova Oval';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #E1F313;
+  }
+
+
+
+
+
+  
+  #green-box #LS #Gbx2 li{
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #DEDFCF;
+  padding: 10px;
+  }
+  
+  
+  
+  
+  
+  
